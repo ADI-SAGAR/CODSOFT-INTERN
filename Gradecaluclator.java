@@ -16,7 +16,7 @@ public class Gradecaluclator{
         int sum=(m1+m2+m3+m3+m4+m5+m6);
         int total=6;
         double Average=(sum)/total;
-        if(Average>90&& Average<100)
+        if(Average>90&& Average<=100)
         {
             System.out.println("first class with Grade A");
         }
